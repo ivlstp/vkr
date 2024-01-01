@@ -35,3 +35,6 @@ nav:
     - Страница 1: pg/page1.md
     - Страница 2: pg/page2.md
     - Страница 3: pg/page3.md
+
+extra: 
+  generator: false
