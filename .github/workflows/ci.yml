@@ -16,7 +16,7 @@ jobs:
           python-version: 3.x
       - uses: action/cahche@v2
         with:
-          key: ${{github.vkr.key}}
+          key: ${{github.ref}}
           path: .cache
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
