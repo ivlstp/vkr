@@ -1,4 +1,4 @@
-name: ci
+name: ivlstp
 on:
   push:
     branches:
