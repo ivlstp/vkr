@@ -1,4 +1,4 @@
-name: ivlstp
+name: ci
 on:
   push:
     branches:
@@ -16,7 +16,7 @@ jobs:
           python-version: 3.x
       - uses: action/cahche@v2
         with:
-          key: ${{github.ref}}
+          key: ${{github.vkr.key}}
           path: .cache
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
