@@ -31,10 +31,22 @@ theme:
 nav:
   - Домашняя страница: index.md
   - Приступить к изучению: page2.md
-  - Пример с несколькими страницами: 
-    - Страница 1: pg/page1.md
-    - Страница 2: pg/page2.md
-    - Страница 3: pg/page3.md
+  - Угрозы безопасности: 
+    - Начало: threats/begin.md
+    - Страница 1: threats/page1.md
+    - Страница 2: threats/page2.md
+    - Страница 3: threats/page3.md
+    - Страница 4: threats/page4.md
+    - Страница 5: threats/page5.md
+    - Страница 6: threats/page6.md
+  - Меры защиты:
+    - Начало: measures/begin.md 
+    - Страница 1: measures/page1.md
+    - Страница 2: measures/page2.md
+    - Страница 3: measures/page3.md
+    - Страница 4: measures/page4.md
+    - Страница 5: measures/page5.md
+    - Страница 6: measures/page6.md    
   - Глоссарий: glossary.md
 
 extra: 
