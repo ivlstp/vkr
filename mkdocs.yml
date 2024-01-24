@@ -39,6 +39,14 @@ nav:
     - Страница 4: threats/page4.md
     - Страница 5: threats/page5.md
     - Страница 6: threats/page6.md
+  - Уязвимости: 
+    - Начало: vulnerabilities/begin.md
+    - Страница 1: vulnerabilities/page1.md
+    - Страница 2: vulnerabilities/page2.md
+    - Страница 3: vulnerabilities/page3.md
+    - Страница 4: vulnerabilities/page4.md
+    - Страница 5: vulnerabilities/page5.md
+    - Страница 6: vulnerabilities/page6.md
   - Меры защиты:
     - Начало: measures/begin.md 
     - Страница 1: measures/page1.md
