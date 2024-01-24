@@ -30,7 +30,6 @@ theme:
 
 nav:
   - Домашняя страница: index.md
-  - Приступить к изучению: page2.md
   - Угрозы безопасности: 
     - Начало: threats/begin.md
     - Страница 1: threats/page1.md
