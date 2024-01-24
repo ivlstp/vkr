@@ -44,6 +44,9 @@ theme:
         name: Светлая тема
       primary: teal
       accent: lime
+  favicon: assets/favicon.png
+  icon:
+    logo: material/account-group
 
 nav:
   - Домашняя страница: index.md
