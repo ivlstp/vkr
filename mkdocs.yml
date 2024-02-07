@@ -53,7 +53,7 @@ nav:
 
   - Угрозы безопасности: 
     - Начало: threats/begin.md
-    - Страница 1: threats/page1.md
+    - Боковое перемещение злоумышленника по локальной сети: threats/page1.md
     - Страница 2: threats/page2.md
     - Страница 3: threats/page3.md
     - Страница 4: threats/page4.md
@@ -61,7 +61,7 @@ nav:
     - Страница 6: threats/page6.md
   - Уязвимости: 
     - Начало: vulnerabilities/begin.md
-    - Страница 1: vulnerabilities/page1.md
+    - Реагирование на мошеннические, фишинговые письма и сообщения: vulnerabilities/page1.md
     - Страница 2: vulnerabilities/page2.md
     - Страница 3: vulnerabilities/page3.md
     - Страница 4: vulnerabilities/page4.md
