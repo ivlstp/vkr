@@ -54,19 +54,58 @@ nav:
   - Угрозы безопасности: 
     - Начало: threats/begin.md
     - Боковое перемещение злоумышленника по локальной сети: threats/page1.md
-    - Страница 2: threats/page2.md
-    - Страница 3: threats/page3.md
-    - Страница 4: threats/page4.md
-    - Страница 5: threats/page5.md
-    - Страница 6: threats/page6.md
+    - Раскрытие ключей (паролей) доступа: threats/page2.md
+    - Неработоспособность информационной системы: threats/page3.md
+    - Несанкционированный доступ к корпоративному облачному сервису из интернета: threats/page4.md
+    - Нарушение требований законодательства по персональным данным: threats/page5.md
+    - Нарушение законодательства о коммерческой тайне: threats/page6.md
+    - Несанкционированный физический доступ на территорию предприятия: threats/page7.md
+    - Обход систем защиты: threats/page8.md
+    - Потеря (уничтожение) данных: threats/page9.md
+    - Закрепление злоумышленника в домене: threats/page10.md
+    - Утечка информации: threats/page11.md
+    - Раскрытие информации о работниках организации: threats/page12.md
+    - Негативное психологическое воздействие на работников: threats/page13.md
+    - Искажение (deface) публичных веб-сайтов: threats/page14.md
+    - Несанкционированный доступ к информационным системам со стороны бывших работников и контрагентов: threats/page15.md
+    - Кража оборудования: threats/page16.md
+    - Раскрытие информации о телефонных звонках: threats/page17.md
+    - Утечка персональных данных: threats/page18.md
+    - Утечка коммерческой тайны: threats/page19.md
+    - Заражение вредоносным программным обеспечением: threats/page20.md
+    - Нарушение установленных политик информационной безопасности: threats/page21.md
+    - Перехват управления социальными сетями: threats/page22.md
+    - Невозможность привлечения работника к ответственности за нарушение информационной безопасности: threats/page23.md
+    - Ухудшение репутации (имиджа) компании: threats/page24.md
   - Уязвимости: 
     - Начало: vulnerabilities/begin.md
     - Реагирование на мошеннические, фишинговые письма и сообщения: vulnerabilities/page1.md
-    - Страница 2: vulnerabilities/page2.md
-    - Страница 3: vulnerabilities/page3.md
-    - Страница 4: vulnerabilities/page4.md
-    - Страница 5: vulnerabilities/page5.md
-    - Страница 6: vulnerabilities/page6.md
+    - Наличие учетных записей с неограниченным сроком действия пароля: vulnerabilities/page2.md
+    - Возможность удаления учетных записей: vulnerabilities/page3.md
+    - Публикация информации в открытых источниках: vulnerabilities/page4.md
+    - Возможность приобретения ранее скомпрометированной информации: vulnerabilities/page5.md
+    - Наличие технических (программных) уязвимостей: vulnerabilities/page6.md
+    - Отсутствие проверки электронной почты при регистрации пользователя: vulnerabilities/page7.md
+    - Отсутствие соглашений (обязательств) о конфиденциальности: vulnerabilities/page8.md
+    - Отсутствие регламентированных обязанностей: vulnerabilities/page9.md
+    - Непроставление грифа конфиденциальности на документах: vulnerabilities/page10.md
+    - Наличие в системе не используемых (устаревших) учетных записей: vulnerabilities/page11.md
+    - Возможность изменения политики подписи приложений: vulnerabilities/page12.md
+    - Возможность удаления данных и файлов: vulnerabilities/page13.md
+    - Возможность создания учетной записи: vulnerabilities/page14.md
+    - Возможность атаки Man in the Browser: vulnerabilities/page15.md
+    - Возможность доступа к некорпоративным облачным хранилищам: vulnerabilities/page16.md
+    - Возможность удаленно выполнить захват аудио или видеопотока: vulnerabilities/page17.md
+    - Возможность распространения ВПО через съемный носитель: vulnerabilities/page18.md
+    - Возможность проведения атаки Cross-Site Scripting (XSS): vulnerabilities/page19.md
+    - Возможность проведения межсайтовой подделки запроса CSRF: vulnerabilities/page20.md
+    - Возможность открытия зараженных, вредоносных файлов: vulnerabilities/page21.md
+    - Возможность посещения зараженного (вредоносного) сайта в сети Интернет: vulnerabilities/page22.md
+    - Непонимание политик информационной безопасности: vulnerabilities/page23.md
+    - Отсутствие ознакомления с политиками информационной безопасности: vulnerabilities/page24.md
+    - Увольнение ответственного за актив работника: vulnerabilities/page25.md
+    - Возможность подбора пароля путем перебора (bruteforce): vulnerabilities/page26.md
+    - Появление поддельных публичных ресурсов от имени компании: vulnerabilities/page27.md
   - Меры защиты:
     - Начало: measures/begin.md 
     - Страница 1: measures/page1.md
@@ -79,3 +118,20 @@ nav:
 
 extra: 
   generator: false
+
+plugins:
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
