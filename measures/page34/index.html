@@ -2881,21 +2881,23 @@
 <p>Правильная настройка заголовков (headers) веб сервиса полностью или частично защищает его от ряда атак: XSS, CSRF, Clickjacking и иных.
 Заголовки могут настраиваться на уровне сайта и/или веб сервера.</p>
 <p>Сервис для проверки заголовков: https://securityheaders.com</p>
-<p>Перечень заголовков и параметров, которые следует настроить:
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">X-Frame-Options</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection">X-XSS-Protection</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">Content Security Policy</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Server">Server</a> 
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options">X-Content-Type-Options</a> 
-- <a href="https://msdn.microsoft.com/en-us/library/jj542450(v=vs.85).aspx">X-Download-Options</a>
-- <a href="https://www.adobe.com/devnet/adobe-media-server/articles/cross-domain-xml-for-streaming.html">X-Permitted-Cross-Domain-Policies</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy">Referrer-Policy</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data">Clear-Site-Data</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security">HTTP Strict Transport Security</a> 
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT">Expect-CT</a>
-- <a href="https://w3c.github.io/webappsec-feature-policy">Feature Policy (Permissions-Policy)</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies">Set-Cookie (Secure, HttpOnly)</a>
-- X-Powered-By</p>
+<p>Перечень заголовков и параметров, которые следует настроить:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">X-Frame-Options</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection">X-XSS-Protection</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">Content Security Policy</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Server">Server</a> </li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options">X-Content-Type-Options</a> </li>
+<li><a href="https://msdn.microsoft.com/en-us/library/jj542450(v=vs.85).aspx">X-Download-Options</a></li>
+<li><a href="https://www.adobe.com/devnet/adobe-media-server/articles/cross-domain-xml-for-streaming.html">X-Permitted-Cross-Domain-Policies</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy">Referrer-Policy</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data">Clear-Site-Data</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security">HTTP Strict Transport Security</a> </li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT">Expect-CT</a></li>
+<li><a href="https://w3c.github.io/webappsec-feature-policy">Feature Policy (Permissions-Policy)</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies">Set-Cookie (Secure, HttpOnly)</a></li>
+<li>X-Powered-By</li>
+</ul>
 <h3 id="_3"><em>Рекомендации к заполнению карточки</em>:</h3>
 <ul>
 <li>Инструментом для реализации защитной меры следует указать конкретные защищаемые веб-сервисы, если они учитываются в реестре активов - привязать их к карточке в качестве инструментов.</li>

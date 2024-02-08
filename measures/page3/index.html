@@ -2900,12 +2900,16 @@
 В некоторых ситуациях (например, для служебных учетных записей) установка неограниченного срока действия пароля для учетных записей является необходимой. Часто неограниченный срок пароля устанавливается по ошибке или в нарушение процедур (например, сотрудниками тех.поддержки себе или пользователям).</p>
 <h3 id="_3">Инструкция к регулярной задаче:</h3>
 <ol>
-<li>Выполнить команду PowerShell:
-<code>Get-ADUser -Filter * -Properties CanonicalName,Enabled,PasswordNeverExpires | ? {$_.Enabled -and $_.PasswordNeverExpires -and ($_.DistinguishedName -like "*OU=Работники*")} | Select-Object -Property SamAccountName,Name,@{Label='OU'; Expression={($_.CanonicalName.Replace("/$($_.Name)", '').Replace('domain.local/Работники/', '')) -split '/' -join ' / '}} | Sort-Object -Property Name | Export-Csv -LiteralPath C:\temp\PasswordNeverExpires.csv -UseCulture -NoTypeInformation -Encoding UTF8</code>
-Где domain.local - имя корпоративного домена а Работники - юнит в котором находятся учетные записи пользователей
-Или вывод сразу в интерфейс:</li>
-<li>Провести анализ списка пользователей с неограниченным сроком пароля и вручную отключить опцию Срок действия пароля неограничен в оснастке Пользователи и компьютеры Active Directory для тех, кому эта опция не требуется.
-Предварительно согласовать изменения с пользователем или тех.поддержкой т.к. если на момент отключения опции пароль просрочен - пользователь не сможет войти в систему.</li>
+<li>
+<p>Выполнить команду PowerShell:</p>
+<p><code>Get-ADUser -Filter * -Properties CanonicalName,Enabled,PasswordNeverExpires | ? {$_.Enabled -and $_.PasswordNeverExpires -and ($_.DistinguishedName -like "*OU=Работники*")} | Select-Object -Property SamAccountName,Name,@{Label='OU'; Expression={($_.CanonicalName.Replace("/$($_.Name)", '').Replace('domain.local/Работники/', '')) -split '/' -join ' / '}} | Sort-Object -Property Name | Export-Csv -LiteralPath C:\temp\PasswordNeverExpires.csv -UseCulture -NoTypeInformation -Encoding UTF8</code></p>
+<p>Где domain.local - имя корпоративного домена а Работники - юнит в котором находятся учетные записи пользователей
+Или вывод сразу в интерфейс:</p>
+</li>
+<li>
+<p>Провести анализ списка пользователей с неограниченным сроком пароля и вручную отключить опцию Срок действия пароля неограничен в оснастке Пользователи и компьютеры Active Directory для тех, кому эта опция не требуется.
+Предварительно согласовать изменения с пользователем или тех.поддержкой т.к. если на момент отключения опции пароль просрочен - пользователь не сможет войти в систему.</p>
+</li>
 </ol>
 <h3 id="_4"><em>Рекомендации к заполнению карточки</em>:</h3>
 <ul>
