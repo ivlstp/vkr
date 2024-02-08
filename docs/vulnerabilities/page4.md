@@ -15,7 +15,10 @@
 + T1596.004 Search Open Technical Databases: CDNs
 + T1596.005 Search Open Technical Databases: Scan Databases
 
-## Связанные угрозы
+## Связанные угрозы и меры защиты
 |Угроза|
 |-|
 |[Раскрытие информации о работниках организации](/vkr/threats/page12)|
+
+|Меры защиты|
+|-|

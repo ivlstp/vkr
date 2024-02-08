@@ -9,7 +9,11 @@
 + T1136.002 Create Account: Domain Account
 + T1136.003 Create Account: Cloud Account
 
-## Связанные угрозы
+## Связанные угрозы и меры защиты
 |Угроза|
 |-|
 |[Закрепление злоумышленника в домене](/vkr/threats/page10)|
+
+|Меры защиты|
+|-|
+||

@@ -4,3 +4,12 @@
 
 ### Техники MITRE ATT&CK:
 + T1597.002 Search Closed Sources: Purchase Technical Data
+
+## Связанные угрозы и меры защиты
+|Угроза|
+|-|
+
+
+|Меры защиты|
+|-|
+
