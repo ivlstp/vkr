@@ -14,3 +14,8 @@
 + T1596.003 Search Open Technical Databases: Digital Certificates
 + T1596.004 Search Open Technical Databases: CDNs
 + T1596.005 Search Open Technical Databases: Scan Databases
+
+## Связанные угрозы
+|Угроза|
+|-|
+|[Раскрытие информации о работниках организации](/vkr/threats/page12)|

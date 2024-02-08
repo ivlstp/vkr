@@ -7,3 +7,8 @@
 
 ### Техники MITRE ATT&CK:
 + T1553.006 Subvert Trust Controls: Code Signing Policy Modification
+
+## Связанные угрозы
+|Угроза|
+|-|
+|[Обход систем защиты](/vkr/threats/page8)|

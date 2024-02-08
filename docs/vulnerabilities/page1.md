@@ -21,3 +21,12 @@
 +    T1598.001 Phishing for Information: Spearphishing Service
 +    T1598.002 Phishing for Information: Spearphishing Attachment
 +    T1598.003 Phishing for Information: Spearphishing Link
+
+
+## Связанные угрозы
+|Угроза|
+|-|
+|[Боковое перемещение злоумышленника по локальной сети](/vkr/threats/page1)|
+|[Заражение вредоносным программным обеспечением](/vkr/threats/page20)|
+|[Раскрытие ключей (паролей) доступа](/vkr/threats/page2)|
+

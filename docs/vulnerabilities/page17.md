@@ -8,3 +8,8 @@
 ### Техники MITRE ATT&CK:
 + T1123 Audio Capture
 + T1125 Video Capture
+
+## Связанные угрозы
+|Угроза|
+|-|
+|[Утечка информации](/vkr/threats/page11)|

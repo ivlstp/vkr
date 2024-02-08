@@ -8,3 +8,8 @@
 + T1136.001 Create Account: Local Account
 + T1136.002 Create Account: Domain Account
 + T1136.003 Create Account: Cloud Account
+
+## Связанные угрозы
+|Угроза|
+|-|
+|[Закрепление злоумышленника в домене](/vkr/threats/page10)|
