@@ -12,7 +12,7 @@
 
 ## Вхождение в базы ФСТЭК, MITRE ATT&CK
 ### Техники MITRE ATT&CK:
-+ T1189 Drive-by Compromise
++ [T1189 Drive-by Compromise](https://attack.mitre.org/techniques/T1189/)
 
 ## Связанные угрозы и меры защиты
 |Угроза|

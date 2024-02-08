@@ -11,16 +11,16 @@
 
 ## Вхождение в базы ФСТЭК, MITRE ATT&CK
 ### БДУ ФСТЭК:
-+ УБИ.175 Угроза "фишинга"
++ [УБИ.175 Угроза "фишинга"](https://bdu.fstec.ru/threat/ubi.175)
 
 ### Техники MITRE ATT&CK:
-+ T1534 Internal Spearphishing
-+    T1566.001 Phishing: Spearphishing Attachment
-+   T1566.002 Phishing: Spearphishing Link
-+    T1566.003 Phishing: Spearphishing via Service
-+    T1598.001 Phishing for Information: Spearphishing Service
-+    T1598.002 Phishing for Information: Spearphishing Attachment
-+    T1598.003 Phishing for Information: Spearphishing Link
++ [T1534 Internal Spearphishing](https://attack.mitre.org/techniques/T1534/)
++ [T1566.001 Phishing: Spearphishing Attachment](https://attack.mitre.org/techniques/T1566/001/)
++ [T1566.002 Phishing: Spearphishing Link](https://attack.mitre.org/techniques/T1566/002/)
++ [T1566.003 Phishing: Spearphishing via Service](https://attack.mitre.org/techniques/T1566/003/)
++ [T1598.001 Phishing for Information: Spearphishing Service](https://attack.mitre.org/techniques/T1598/001/)
++ [T1598.002 Phishing for Information: Spearphishing Attachment](https://attack.mitre.org/techniques/T1598/002/)
++ [T1598.003 Phishing for Information: Spearphishing Link](https://attack.mitre.org/techniques/T1598/003/)
 
 
 ## Связанные угрозы и меры защиты

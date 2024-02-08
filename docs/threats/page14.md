@@ -40,4 +40,4 @@ Deface публичных веб-сайтов может быть использ
 
 ## Вхождение в базы ФСТЭК, MITRE ATT&CK
 ### Техники MITRE ATT&CK:
-+ T1491.002 Defacement: External Defacement
++ [T1491.002 Defacement: External Defacement](https://attack.mitre.org/techniques/T1491/002/)

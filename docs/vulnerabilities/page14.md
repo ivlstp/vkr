@@ -5,9 +5,9 @@
 
 ## Вхождение в базы ФСТЭК, MITRE ATT&CK
 ### Техники MITRE ATT&CK:
-+ T1136.001 Create Account: Local Account
-+ T1136.002 Create Account: Domain Account
-+ T1136.003 Create Account: Cloud Account
++ [T1136.001 Create Account: Local Account](https://attack.mitre.org/techniques/T1136/001/)
++ [T1136.002 Create Account: Domain Account](https://attack.mitre.org/techniques/T1136/002/)
++ [T1136.003 Create Account: Cloud Account](https://attack.mitre.org/techniques/T1136/003/)
 
 ## Связанные угрозы и меры защиты
 |Угроза|

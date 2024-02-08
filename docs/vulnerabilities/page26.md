@@ -21,7 +21,7 @@
 
 ## Вхождение в базы ФСТЭК, MITRE ATT&CK
 ### Техники MITRE ATT&CK:
-+ T1110.001 Brute Force: Password Guessing
++ [T1110.001 Brute Force: Password Guessing](https://attack.mitre.org/techniques/T1110/001/)
 
 ## Связанные угрозы и меры защиты
 |Угроза|

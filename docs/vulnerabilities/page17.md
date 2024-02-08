@@ -6,8 +6,8 @@
 
 ## Вхождение в базы ФСТЭК, MITRE ATT&CK
 ### Техники MITRE ATT&CK:
-+ T1123 Audio Capture
-+ T1125 Video Capture
++ [T1123 Audio Capture](https://attack.mitre.org/techniques/T1123)
++ [T1125 Video Capture](https://attack.mitre.org/techniques/T1125)
 
 ## Связанные угрозы и меры защиты
 |Угроза|

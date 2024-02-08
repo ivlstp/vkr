@@ -5,15 +5,15 @@
 Часть информации может быть использована злоумышленниками для развития атаки на компанию: адреса электронной почты, IP адреса, домены, информация о технической реализации публичных сервисов, учетные записи пользователей, имена и должности сотрудников.
 
 ### Техники MITRE ATT&CK:
-+ T1589 Gather Victim Identity Information
-+ T1589.002 Gather Victim Identity Information: Email Addresses
-+ T1589.003 Gather Victim Identity Information: Employee Names
-+ T1596 Search Open Technical Databases
-+ T1596.001 Search Open Technical Databases: DNS/Passive DNS
-+ T1596.002 Search Open Technical Databases: WHOIS
-+ T1596.003 Search Open Technical Databases: Digital Certificates
-+ T1596.004 Search Open Technical Databases: CDNs
-+ T1596.005 Search Open Technical Databases: Scan Databases
++ [T1589 Gather Victim Identity Information](https://attack.mitre.org/techniques/T1589/)
++ [T1589.002 Gather Victim Identity Information: Email Addresses](https://attack.mitre.org/techniques/T1589/002/)
++ [T1589.003 Gather Victim Identity Information: Employee Names](https://attack.mitre.org/techniques/T1589/003/)
++ [T1596 Search Open Technical Databases](https://attack.mitre.org/techniques/T1596/)
++ [T1596.001 Search Open Technical Databases: DNS/Passive DNS](https://attack.mitre.org/techniques/T1596/001/)
++ [T1596.002 Search Open Technical Databases: WHOIS](https://attack.mitre.org/techniques/T1596/002/)
++ [T1596.003 Search Open Technical Databases: Digital Certificates](https://attack.mitre.org/techniques/T1596/003/)
++ [T1596.004 Search Open Technical Databases: CDNs](https://attack.mitre.org/techniques/T1596/004/)
++ [T1596.005 Search Open Technical Databases: Scan Databases](https://attack.mitre.org/techniques/T1596/005/)
 
 ## Связанные угрозы и меры защиты
 |Угроза|

@@ -6,7 +6,7 @@
 
 ## Вхождение в базы ФСТЭК, MITRE ATT&CK
 ### Техники MITRE ATT&CK:
-+ T1185 Browser Session Hijacking
++ [T1185 Browser Session Hijacking](https://attack.mitre.org/techniques/T1185/)
 
 ## Связанные угрозы и меры защиты
 |Угроза|

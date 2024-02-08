@@ -5,7 +5,7 @@
 
 ## Вхождение в базы ФСТЭК, MITRE ATT&CK
 ### Техники MITRE ATT&CK:
-+ T1091 Replication Through Removable Media
++ [T1091 Replication Through Removable Media](https://attack.mitre.org/techniques/T1091)
 
 ## Связанные угрозы и меры защиты
 |Угроза|
