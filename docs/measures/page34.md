@@ -9,6 +9,7 @@
 Сервис для проверки заголовков: https://securityheaders.com
 
 Перечень заголовков и параметров, которые следует настроить:
+
 - [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)
 - [X-XSS-Protection](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection)
 - [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)

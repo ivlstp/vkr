@@ -8,9 +8,12 @@
 
 ### Инструкция к регулярной задаче:
 1.  Выполнить команду PowerShell:
-```Get-ADUser -Filter * -Properties CanonicalName,Enabled,PasswordNeverExpires | ? {$_.Enabled -and $_.PasswordNeverExpires -and ($_.DistinguishedName -like "*OU=Работники*")} | Select-Object -Property SamAccountName,Name,@{Label='OU'; Expression={($_.CanonicalName.Replace("/$($_.Name)", '').Replace('domain.local/Работники/', '')) -split '/' -join ' / '}} | Sort-Object -Property Name | Export-Csv -LiteralPath C:\temp\PasswordNeverExpires.csv -UseCulture -NoTypeInformation -Encoding UTF8```
-Где domain.local - имя корпоративного домена а Работники - юнит в котором находятся учетные записи пользователей
-Или вывод сразу в интерфейс:
+
+    ```Get-ADUser -Filter * -Properties CanonicalName,Enabled,PasswordNeverExpires | ? {$_.Enabled -and $_.PasswordNeverExpires -and ($_.DistinguishedName -like "*OU=Работники*")} | Select-Object -Property SamAccountName,Name,@{Label='OU'; Expression={($_.CanonicalName.Replace("/$($_.Name)", '').Replace('domain.local/Работники/', '')) -split '/' -join ' / '}} | Sort-Object -Property Name | Export-Csv -LiteralPath C:\temp\PasswordNeverExpires.csv -UseCulture -NoTypeInformation -Encoding UTF8```
+
+    Где domain.local - имя корпоративного домена а Работники - юнит в котором находятся учетные записи пользователей
+    Или вывод сразу в интерфейс:
+
 2. Провести анализ списка пользователей с неограниченным сроком пароля и вручную отключить опцию Срок действия пароля неограничен в оснастке Пользователи и компьютеры Active Directory для тех, кому эта опция не требуется.
 Предварительно согласовать изменения с пользователем или тех.поддержкой т.к. если на момент отключения опции пароль просрочен - пользователь не сможет войти в систему.
 
