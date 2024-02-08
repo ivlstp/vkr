@@ -15,4 +15,4 @@ CSRF (XSRF, cross-site request forgery, межсайтовая подделка 
 
 |Меры защиты|
 |-|
-||
+|[Настройка безопасных заголовков для web сайта](/vkr/measures/page34)|
